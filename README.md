@@ -8,7 +8,7 @@ The dataset contains information about COVID-19 cases, specifically focusing on 
 Data Preprocessing steps:
 1. Encoding gender to avoid bias towards any specific gender.
 2. Standard scaling of the data.
-3. 
+
 #### Approach Considerations:
 - Our primary goal is to minimize False Negatives (FN), thus emphasizing higher recall, especially for detecting fatalities. 
 - We recognize the importance of not misclassifying patients who will eventually succumb to the disease as recovered. Hence, minimizing false negatives is prioritized.
